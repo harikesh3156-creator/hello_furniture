@@ -341,11 +341,10 @@ footer{padding:27px 0;background:#080807}
 </footer>
 
 <script>
-const whatsappURL = "https://wa.me/918502814117?text=hey%20i%20want%20an%20eagle%20%F0%9F%86%94";
-document.addEventListener("click", function(e) {
-  const link = e.target.closest("a");
-  if (link) return;
-  window.location.href = whatsappURL;
+const whatsappURL="https://wa.me/918502814117?text=hey%20i%20want%20an%20eagle%20%F0%9F%86%94";
+document.addEventListener("click",e=>{
+  if(e.target.closest("a")) return;
+  window.location.href=whatsappURL;
 });
 </script>
 </body>
